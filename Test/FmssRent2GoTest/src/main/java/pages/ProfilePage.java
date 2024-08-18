@@ -86,12 +86,12 @@ public class ProfilePage {
     }
 
 
-    public void clickLogoutButton() {
+    public void clickLogoutButton(String button) {
         driver.findElement(logoutButton).click();
     }
 
 
-    public boolean isLoginScreenDisplayed() {
+    public boolean isLoginScreenDisplayed(String screen) {
         return loginPage.isLoginScreenDisplayed();
     }
 
